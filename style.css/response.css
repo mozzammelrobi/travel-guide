@@ -44,12 +44,31 @@
     width: 50%;
     margin: 0 auto;
     margin-top: 40px;
-
 }
 
+/* popular section */
+.popular-tour-container{
+    flex-direction: column;
+}
 
+.popular-tour-text {
+    width: 100%;
+    margin: 0;
+}
 
+.popular-tour-text h3 {
+    font-size: 20px;
+}
+.popular-tour-text p {
+    font-size: 14px;
+}
+.tour-img {
 
+    width: 100%;
+    height: 550px;
+    border-radius: 16px;
+   margin-top: 70px;
 
+}
 
 }

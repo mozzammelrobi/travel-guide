@@ -23,6 +23,15 @@ main {
 
 }
 
+.btn-primary {
+    border-radius: 8px;
+    background: #FF5400;
+    padding: 13px 35px;
+    color: #fff;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+}
 
 
 /* nav style start */
@@ -103,13 +112,14 @@ main {
     column-width: 800px;
     padding-top: 100px;
 }
+
 .banner p {
-        color: #FFF;
-        font-size: 16px;
-        font-weight: 400px;
-        padding-top: 20px;
-        width: 600px;
-        margin: 0 auto;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400px;
+    padding-top: 20px;
+    width: 600px;
+    margin: 0 auto;
 }
 
 .input-form {
@@ -118,9 +128,7 @@ main {
     width: 70%;
     margin: 0 auto;
     margin-top: 60px;
-
 }
-
 
 input,
 select {
@@ -128,18 +136,63 @@ select {
     border-radius: 8px;
     background: #FFF;
     width: 170px;
-   margin: 10px;
+    margin: 10px;
 
     color: rgba(19, 19, 24, 0.50);
     font-size: 16px;
     font-weight: 400;
 }
-.find-now{
+
+.find-now {
     padding: 10px;
     border-radius: 8px;
     background: #FF5400;
     width: 170px;
-   margin: 10px;
-   color: #FFF;
-   border: none;
+    margin: 10px;
+    color: #FFF;
+    border: none;
+}
+
+/* banner section end */
+
+/* popular section start */
+.popular-tour-container {
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    /* height: 550px; */
+
+}
+
+.popular-tour-text {
+    width: 48%;
+}
+
+.popular-tour-text h3 {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 700px;
+}
+
+.popular-tour-text p {
+    color: rgba(19, 19, 24, 0.70);
+    font-weight: 400px;
+    margin-top: 20px;
+}
+
+.popular-tour-text ul {
+    padding-left: 25px;
+    padding-right: 20px;
+}
+
+.popular-tour-text button {
+    margin-top: 20px;
+}
+.tour-img {
+    border: 1px solid green;
+    width: 48%;
+    border-radius: 16px;
+    background: url('../Images/Rectangle-4.png'), lightgray 50% / cover no-repeat;
 }
