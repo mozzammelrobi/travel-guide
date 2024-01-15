@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,300;1,800&family=Mulish:wght@400;700;800&family=Open+Sans:ital,wght@0,400;0,700;0,800;1,600;1,800&family=Poppins:wght@400;500;600;700;800&family=Work+Sans:ital,wght@0,400;0,600;0,700;1,800&display=swap');
+
+
+/* common styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: 'Mulish', sans-serif;
+}
+
+body {
+    /* border: 2px solid red; */
+    max-width: 1440px;
+    background-color: #FFF;
+}
+
+main {
+    /* border: 2px solid goldenrod; */
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+
+
+/* nav style start */
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.nav-text {
+    display: flex;
+    display: inline-block;
+    width: 50%;
+}
+
+.nav-text img {
+    width: 40px;
+    height: 40px;
+    display: inline;
+    margin: 0 auto;
+
+
+}
+
+.nav-text h3 {
+    color: #131318;
+    font-size: 36px;
+    font-weight: 700px;
+    display: inline;
+}
+
+.nav-text .travel {
+    color: #FF5400;
+}
+
+.nav-anchor {
+    width: 50%;
+
+}
+
+.nav-anchor ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+
+
+}
+
+.nav-anchor a {
+    text-decoration: none;
+    color: #424247;
+    font-size: 18px;
+    font-weight: 400px;
+}
+
+/* navbar end  */
+
+
+
+
+
+/* banner section start */
+.banner {
+    width: 100%;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('../Images/Group-13.png');
+    height: 500px;
+    margin-top: 50px;
+    border-radius: 16px;
+    text-align: center;
+}
+
+.banner h1 {
+    color: #FFF;
+    font-size: 64px;
+    column-width: 800px;
+    padding-top: 100px;
+}
+.banner p {
+        color: #FFF;
+        font-size: 16px;
+        font-weight: 400px;
+        padding-top: 20px;
+        width: 600px;
+        margin: 0 auto;
+}
+
+.input-form {
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 60px;
+
+}
+
+
+input,
+select {
+    padding: 10px;
+    border-radius: 8px;
+    background: #FFF;
+    width: 170px;
+   margin: 10px;
+
+    color: rgba(19, 19, 24, 0.50);
+    font-size: 16px;
+    font-weight: 400;
+}
+.find-now{
+    padding: 10px;
+    border-radius: 8px;
+    background: #FF5400;
+    width: 170px;
+   margin: 10px;
+   color: #FFF;
+   border: none;
+}

@@ -1,0 +1,55 @@
+@media (max-width: 576px) {
+
+    /* common style */
+
+    main {
+        width: 90%;
+    }
+
+
+    .nav {
+        width: 95%;
+        flex-direction: column;
+        text-align: left;
+       padding-left: 30px;
+    }
+    
+    .nav-text{
+        width: 100%;
+    }
+    .nav-text h3 {
+        font-size: 26px;
+    }
+    .nav-text img {
+        width: 30px;
+        height: 30px; 
+    }
+    .nav-anchor {
+        display: none;
+    }
+    /* banner section  */
+    .banner h1  {
+        font-size: 25px;
+        padding-top: 30px;
+    }
+    .banner p {
+        font-size: 10px;
+        font-weight: 400px;
+        padding-top: 20px;
+        width: 300px;
+}
+.input-form {
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 40px;
+
+}
+
+
+
+
+
+
+}
