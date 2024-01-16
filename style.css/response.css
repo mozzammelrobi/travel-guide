@@ -109,4 +109,28 @@
     grid-column: 1/span 1;
     grid-row: 7/span 1;
 }
+/* WHY CHOSE SECTION START */
+.chose-header p {
+    width: 70%;
+    margin-bottom: 50px;
+   
+}
+.service-container {
+    flex-direction: column;
+    justify-content: center;
+}
+.service {
+    width: 90%;
+    margin: 0 auto;
+    padding: 0;
+    height: 500px;
+
+}
+.service-2 {
+    margin-top: 40px;
+}
+.service-3 {
+    padding: 30px;
+}
+
 }
