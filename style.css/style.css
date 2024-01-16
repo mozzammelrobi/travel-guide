@@ -80,7 +80,7 @@ main {
     display: inline;
 }
 
-.nav-text .travel {
+.travel {
     color: #FF5400;
 }
 
@@ -450,6 +450,7 @@ select {
     width: 40%;
     padding: 40px;
 }
+
 .news-latter .news-latter-text p {
     margin-top: 16px;
     margin-bottom: 24px;
@@ -465,6 +466,7 @@ select {
     margin-bottom: 16px;
     margin-left: 0;
 }
+
 .news-latter .news-latter-text .btn-subscribe {
     width: 100%;
 }
@@ -472,14 +474,17 @@ select {
 .news-latter .news-latter-img {
     width: 58%;
 }
- .nli {
+
+.nli {
     position: relative;
 }
+
 .news-latter-img .nli img {
     width: 100%;
     height: 100%;
 }
- .save-up {
+
+.save-up {
     background-color: #FF5400;
     border-radius: 16px;
     color: #fff;
@@ -492,5 +497,67 @@ select {
     transform: rotate(-50deg);
     bottom: 15%;
     left: 70%;
-    
+
+}
+
+
+/* FOOTER SECTION START */
+footer {
+    margin-top: 100px;
+    background: rgba(19, 19, 24, 0.05);
+    /* height: 500px; */
+    text-align: center;
+   
+}
+
+.footer-container {
+    width: 90%;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    /* margin-bottom: 110px; */
+}
+
+.footer-container p {
+    margin-top: 15px;
+}
+
+.f-head-s {
+    display: flex;
+    justify-content: center;
+    padding-top: 110px;
+}
+
+.f-head-s img {
+    width: 40px;
+    /* float: left; */
+}
+
+.f-head-s img h3 {
+    display: inline;
+
+}
+
+.text {
+    /* border: 1px solid red; */
+}
+
+.imgg {
+    /* border: 1px solid green; */
+}
+
+.fa-brands {
+    margin-right: 20px;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+#the-end {
+    color: #131318;
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center;
+    padding-top: 20px;
+   padding-bottom: 30px;
 }

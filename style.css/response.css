@@ -114,6 +114,7 @@
 .chose-header p {
     width: 70%;
     margin-bottom: 50px;
+    
    
 }
 .service-container {
@@ -124,7 +125,7 @@
     width: 90%;
     margin: 0 auto;
     padding: 0;
-    height: 500px;
+    /* height: 500px; */
 
 }
 .service-2 {
@@ -169,6 +170,13 @@ width: 80%;
     padding: 10px;
     transform: rotate(-40deg);
 }
+
+/* FOOTER SECTION START */
+  footer  {
+   
+  }
+
+
 }
 
 
