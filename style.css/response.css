@@ -132,5 +132,24 @@
 .service-3 {
     padding: 30px;
 }
+/* PERFECT PLACE SECTION  */
+.perfect-place-container {
+    flex-direction: column;
+}
+.perfect-place-container .perfect-place-text{
+    width: 100% ;
+}
+.perfect-place-container .perfect-place-img {;
+    width: 100%;
+   height: 500px;
+   margin-top: 35px;
+}
+.perfect-place-img h6 {
+    color: #FFF;
+font-size: 18pxpx;
+width: 80%;
+
+}
+
 
 }

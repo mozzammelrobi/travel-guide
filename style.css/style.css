@@ -361,3 +361,75 @@ select {
     margin: 0 auto;
     padding: 30px;
 }
+
+/* why chose us section end */
+
+/* PERFECTS PLACE SECTION START */
+.perfect-place-container {
+    /* border: 2px solid red; */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 150px;
+    min-height: 500px;
+}
+
+.perfect-place-container .perfect-place-text {
+    /* border: 1px solid green; */
+    width: 48%;
+}
+
+.perfect-place-text h2 {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+
+}
+
+.perfect-place-text p {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    width: 95%;
+}
+
+.perfect-place-text ul {
+    padding-left: 30px;
+}
+
+.perfect-place-text li {
+    color: #131318;
+    font-size: 20px;
+    font-weight: 800;
+    width: 95%;
+}
+
+.perfect-place-text button {
+    margin-top: 20px;
+}
+
+
+
+
+.perfect-place-container .perfect-place-img {
+    /* border: 1px solid blueviolet; */
+    width: 48%;
+
+}
+
+
+.perfect-place-img {
+    background: url('../Images/Group\ 40089.png');
+    background-repeat: no-repeat;
+    /* height: 700px; */
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.perfect-place-img h6 {
+    color: #FFF;
+font-size: 24px;
+font-weight: 700;
+width: 50%;
+margin: 0 auto;
+}
