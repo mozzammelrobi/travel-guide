@@ -58,11 +58,12 @@ main {
     margin-top: 50px;
     position: relative;
 }
+
 .navigainon {
-    content-visibility:hidden;
+    content-visibility: hidden;
     position: absolute;
     left: 90%;
-  }
+}
 
 .nav-text {
     display: flex;
@@ -251,7 +252,7 @@ select {
     grid-template-rows: repeat(3, 1fr);
     gap: 20px;
     margin-bottom: 50px;
-   
+
 
 }
 
@@ -262,6 +263,7 @@ select {
     border-radius: 10px;
     z-index: 1;
 }
+
 .text-one {
     position: absolute;
     left: 50%;
@@ -269,7 +271,7 @@ select {
     z-index: 2;
     color: #fff;
     font-size: 40px;
-    transform: translate(-50% , -50%);
+    transform: translate(-50%, -50%);
 }
 
 .destination-img-1 {
@@ -312,7 +314,7 @@ select {
     position: relative;
 }
 
-/* why chose us section start */
+/* WHY CHOSE US SECTION STYLES START */
 
 .why-chose-container {
     /* border: 2px solid red; */
@@ -382,7 +384,72 @@ select {
     padding: 30px;
 }
 
-/* why chose us section end */
+/* WHY CHOSE US SECTION STYLES END */
+
+/* DEALS AND DISCOUNTS SECTION START */
+.deals-discount-container {
+    width: 100%;
+    height: 700px;
+    margin-top: 50px;
+    /* text-align: center; */
+    position: relative;
+}
+
+.deals-discount-container .deals-discount h3 {
+    padding-bottom: 24px;
+    padding: 0;
+    text-align: center;
+}
+
+.deals-discount-container .deals-discount p {
+    width: 55%;
+    margin: 0 auto;
+}
+
+.discount-img-1 {
+    background: url('../Images/Group\ 39.png');
+    width: 100%;
+    height: 500px;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+
+.discount-offer {
+    /* border: 2px solid green; */
+    width: 40%;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(0.5px);
+    position: absolute;
+    padding: 50px;
+    left: 50%;
+    top: 200px;
+
+}
+
+.tour-place-name {
+    color: #131318;
+    font-size: 24px;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.discount-p {
+    width: 90%;
+    margin-bottom: 15px;
+}
+
+.tour-price {
+    color: #FF5400;
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.discount-offer button {
+    /* margin-bottom: 50px; */
+}
+
 
 /* PERFECTS PLACE SECTION START */
 .perfect-place-container {
@@ -527,7 +594,7 @@ footer {
     background: rgba(19, 19, 24, 0.05);
     /* height: 500px; */
     text-align: center;
-   
+
 }
 
 .footer-container {
@@ -579,5 +646,5 @@ footer {
     font-weight: 300;
     text-align: center;
     padding-top: 20px;
-   padding-bottom: 30px;
+    padding-bottom: 30px;
 }

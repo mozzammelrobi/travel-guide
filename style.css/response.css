@@ -146,6 +146,49 @@ input, select {
 .service-3 {
     padding: 30px;
 }
+
+/* DEALS AND DISCOUNTS SECTION START */
+
+.deals-discount-container .deals-discount h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.deals-discount-container .deals-discount p {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 14px;
+}
+
+.discount-offer {
+    width: 90%;
+    left: 5%;
+    top: 50%;
+    /* bottom: 20%; */
+    padding: 20px;
+}
+.tour-place-name {
+    font-size: 20px;
+    margin-bottom: 8px;
+    font-size: 20;
+    
+}
+.discount-p {
+    width: 100%;
+    margin-bottom: 12px;
+    font-size: 14px;
+
+}
+.tour-price {
+    font-size: 16px;
+    font-weight: 800;
+    margin-bottom: 12px;
+}
+.discount-offer button {
+    padding: 9px 20px;
+    font-size: 15px;
+}
+
 /* PERFECT PLACE SECTION  */
 .perfect-place-container {
     flex-direction: column;
