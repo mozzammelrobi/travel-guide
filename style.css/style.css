@@ -52,11 +52,17 @@ main {
 .nav {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    /* align-items: center; */
     width: 80%;
     margin: 0 auto;
     margin-top: 50px;
+    position: relative;
 }
+.navigainon {
+    content-visibility:hidden;
+    position: absolute;
+    left: 90%;
+  }
 
 .nav-text {
     display: flex;
@@ -176,8 +182,6 @@ select {
     display: flex;
     justify-content: space-between;
     padding: 10px;
-    /* height: 550px; */
-
 }
 
 .popular-tour-text {
@@ -278,6 +282,7 @@ select {
 .destination-img-2 {
     grid-column: 7/span 6;
     grid-row: 1/span 1;
+    position: relative;
 }
 
 .destination-img-3 {

@@ -14,6 +14,10 @@
         text-align: left;
        padding-left: 30px;
     }
+    .navigainon {
+        content-visibility: visible;
+
+    }
     
     .nav-text{
         width: 100%;
@@ -24,9 +28,11 @@
     .nav-text img {
         width: 30px;
         height: 30px; 
+        margin-right: 10px;
     }
     .nav-anchor {
         display: none;
+       
     }
     /* banner section  */
     .banner h1  {
@@ -45,6 +51,12 @@
     width: 50%;
     margin: 0 auto;
     margin-top: 40px;
+}
+input, select {
+    width: 90%;
+}
+.find-now  {
+    width: 90%;
 }
 
 /* popular section */
